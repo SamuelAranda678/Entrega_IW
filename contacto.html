@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Inteligencia Aritificial en la Industria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <h1>Inteligencia Aritificial en la Industria</h1>
+</header>
+
+<nav>
+    <a href="./Inicio.html">Inicio</a>
+    <a href="./aplicaciones.html">Aplicaciones</a>
+    <a href="./Proyectos.html">Proyectos</a>
+    <a href="./contacto.html">Contacto</a>
+</nav>
+
+<main>
+    <h2>Contácto</h2>
+    <section id="contacto">
+    <form action="./server.php" method="post">
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="teléfono" pattern="[0-9]{9}" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="correo electrónico" required><br><br>
+
+        <label for="asunto">Asunto:</label><br>
+        <input type="text" id="asunto" name="asunto" placeholder="asunto" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" placeholder="mensaje..." rows="10" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <p>Email: ejemplo@correo.com</p>
+    </div>
+    <div>
+        <p>&copy; 2025 Samuel Aranda.</p>
+    </div>
+</footer>
+</html>
