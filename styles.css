@@ -1,0 +1,209 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #4b4b4b; 
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+}
+
+nav {
+    background-color: #4b4b4b; 
+    padding: 15px 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: 0.3s; 
+}
+
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+main {
+    margin: 50px; 
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify
+}
+
+h2,
+ol {
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita opcional */
+}
+
+ol p,
+ol table {
+    font-size: 16px; /* Tamaño más pequeño */
+    font-weight: normal; /* Sin negrita */
+    margin-left: 10px; /* Espaciado para que no se vea pegado al número */
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+
+/*Impacto Social y Etico*/
+
+#impacto-social-etico {
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#impacto-social-etico h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#impacto-social-etico h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+#impacto-social-etico ol {
+    list-style-type: decimal; 
+    padding-left: 25px;
+}
+
+#impacto-social-etico li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5; 
+}
+
+#impacto-social-etico ol li p {
+    font-size: 18px;
+    font-weight: normal; 
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/*###########*/
+
+/*Side-bar*/
+.bloque-proyectos {
+    display: flex;
+    align-items: flex-start;
+    gap: 200px; 
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+
+.side-bar {
+    flex: 2; 
+    background-color: #4b4b4b;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido {
+    flex: 3;
+}
+
+.side-bar h3 {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.side-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-bar ul li {
+    margin-bottom: 10px;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.side-bar ul li a:hover {
+    text-decoration: underline;
+}
+/*###########*/
+
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ }
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+img {
+    max-width: 700px; 
+    max-height: 700px;
+    width: auto; 
+    height: auto; 
+    display: block;
+    margin: auto;
+}
+
+#informate {
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #4b4b4b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2; 
+    color: #333; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 16px; 
+    border-top: 1px solid #ddd; 
+}
