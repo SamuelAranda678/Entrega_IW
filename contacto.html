@@ -6,20 +6,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
+<body>
+
+
+<header class="header">
     <h1>Inteligencia Aritificial en la Industria</h1>
 </header>
 
 <nav>
-    <a href="./Inicio.html">Inicio</a>
-    <a href="./aplicaciones.html">Aplicaciones</a>
-    <a href="./Proyectos.html">Proyectos</a>
-    <a href="./contacto.html">Contacto</a>
+    <a href="Inicio.html">Inicio</a>
+    <a href="aplicaciones.html">Aplicaciones</a>
+    <a href="Proyectos.html">Proyectos</a>
+    <a href="contacto.html">Infórmate</a>
 </nav>
 
 <main>
-    <h2>Contácto</h2>
-    <section id="contacto">
+    <h2>Infórmate</h2>
+    <section id="informate">
     <form action="./server.php" method="post">
 
         <label for="nombre">Nombre:</label><br>
@@ -31,11 +34,32 @@
         <label for="email">Correo Electrónico:</label><br>
         <input type="email" id="email" name="email" placeholder="correo electrónico" required><br><br>
 
+        <p>Motivo del contacto:</p>
+        <label><input type="radio" name="motivo" value="consulta" required> Consulta</label><br>
+        <label><input type="radio" name="motivo" value="soporte"> Soporte técnico</label><br>
+        <label><input type="radio" name="motivo" value="otros"> Otros</label><br><br>
+
+        <label for="intereses" id="eleccion">Selecciona los temas de interés:</label><br>
+        <select id="intereses" name="intereses[]" multiple size="4">
+        <option value="inteligencia_artificial">Inteligencia Artificial</option>
+        <option value="big_data">Big Data y Análisis de Datos</option>
+        <option value="seguridad">Ciberseguridad</option>
+        <option value="cloud_computing">Cloud Computing</option>
+        <option value="iot">Internet de las Cosas (IoT)</option>
+        </select><br><br>
+
         <label for="asunto">Asunto:</label><br>
         <input type="text" id="asunto" name="asunto" placeholder="asunto" required><br><br>
 
         <label for="mensaje">Mensaje:</label><br>
         <textarea id="mensaje" name="mensaje" placeholder="mensaje..." rows="10" required></textarea><br><br>
+        
+        <label for="terminos">
+            <input type="checkbox" id="terminos" name="terminos" required>
+            Acepto los términos y condiciones.
+        </label><br><br>
+
+
 
         <button type="submit">Enviar</button>
     </form>
@@ -43,11 +67,12 @@
 </main>
 
 <footer>
-    <div>
-        <p>Email: ejemplo@correo.com</p>
+    <div class="footer">
+        <p>Email: samuelsan678@gmail.com</p>
     </div>
     <div>
-        <p>&copy; 2025 Samuel Aranda.</p>
+        <p>&copy; 2025 Samuel Aranda García.</p>
     </div>
 </footer>
+</body>
 </html>
