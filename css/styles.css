@@ -44,16 +44,16 @@ main {
 
 h2,
 ol {
-    font-family: Arial, sans-serif; /* Fuente */
-    font-size: 24px; /* Tamaño del texto */
-    font-weight: bold; /* Negrita opcional */
+    font-family: Arial, sans-serif;
+    font-size: 24px; 
+    font-weight: bold; 
 }
 
 ol p,
 ol table {
-    font-size: 16px; /* Tamaño más pequeño */
-    font-weight: normal; /* Sin negrita */
-    margin-left: 10px; /* Espaciado para que no se vea pegado al número */
+    font-size: 16px;
+    font-weight: normal; 
+    margin-left: 10px;
 }
 
 
